@@ -1,6 +1,6 @@
 # MiniApp Canvas DSL
 
-基于 uniapp 的 api 封装的 canvas dsl，可以让绘制 canvas 更简单
+基于小程序 api 封装的 canvas dsl，可以让绘制 canvas 更简单
 
 ## 快速开始
 
@@ -53,7 +53,6 @@ Page({
     canvas(this.data.canvasId, [thumb(), button('进店逛逛', buttonStyle)]);
   },
 });
-
 ```
 
 ### UniApp
