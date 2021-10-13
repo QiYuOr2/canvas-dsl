@@ -1,4 +1,4 @@
-# UniApp Canvas DSL
+# MiniApp Canvas DSL
 
 基于 uniapp 的 api 封装的 canvas dsl，可以让绘制 canvas 更简单
 
