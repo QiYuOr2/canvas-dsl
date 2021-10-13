@@ -68,7 +68,8 @@ export function unit(raw: number) {
  * @param fontSize 字体大小
  */
 export function setFontSize(ctx: Context, fontSize: number) {
-  ctx.font = `${fontSize}px  sans-serif`;
+  fontSize = Math.round(fontSize);
+  ctx.font = `${fontSize}px sans-serif`;
   ctx.setFontSize(fontSize);
 }
 
