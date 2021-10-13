@@ -1,0 +1,6 @@
+.canvas {
+  border: 2rpx solid #333;
+  width: 500rpx;
+  height: 400rpx;
+  margin-bottom: 40rpx;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "canvas-dsl",
+  "version": "1.0.0",
+  "description": "简易的Canvas DSL",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:dev": "webpack --config config/webpack.dev.js --watch",
+    "build": "webpack --config config/webpack.prod.js",
+    "dev": "node scripts/dev.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "canvas",
+    "UniApp"
+  ],
+  "author": "qiyuor2 <tuzilow@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/circular-dependency-plugin": "^5.0.4",
+    "@types/node": "^16.10.3",
+    "circular-dependency-plugin": "^5.2.2",
+    "fs-extra": "^10.0.0",
+    "miniprogram-api-typings": "^3.3.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3",
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0"
+  }
+}

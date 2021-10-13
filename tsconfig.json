@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/",
+    "sourceMap": true,
+    "module": "commonJs",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "types": ["node", "miniprogram-api-typings"],
+    "lib": ["ES2015"],
+    "declaration": true
+  },
+  "include": ["src/**/*.ts"]
+}

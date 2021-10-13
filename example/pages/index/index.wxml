@@ -1,0 +1,6 @@
+<!-- index.wxml -->
+<view class="container">
+  <canvas class="canvas" canvas-id="{{canvasId}}" />
+  <button type="primary" bind:tap="draw">绘制</button>
+  <button type="default" open-type="share">分享</button>
+</view>
